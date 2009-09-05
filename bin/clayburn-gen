@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+
+require "lib/clayburn-gen"
+# require "clayburn-gen"
+
+class ClayburnConsole
+
+  def self.options
+    b = <<-E
+          
+Clayburn MVC
+============ 
+Usage: clayburn-gen generator_name [options]
+      
+available generators
+    app                                          Generates a new "jump start" Clayburb application
+    controller                                   Generates a new controller.
+    flat                                         Generates a new clayburn app with all the resource in one file.
+E
+
+  end
+  
+  def self.parse(args)
+    
+    opt = %w[app controller flat]
+    
+    if args.length != 2 || !opt.include?(args[0])
+      puts options 
+      exit
+    end
+    
+
+    p = Clayburn.new
+    method = args[0]
+    p.send(method,args[1])
+
+    
+  end
+end
+
+ClayburnConsole.parse(ARGV)
+
+
+
+
