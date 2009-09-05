@@ -13,8 +13,11 @@ class Clayburn
     FileUtils.cp_r(template_path, generate_path)
 
     clayburn_path = File.join(File.dirname(__FILE__),'clayburn')
+
     clayburn_final_path = File.join(generate_path,'127.0.0.1/js/lib/clayburn')
-    FileUtils.cp_r(clayburn_path, clayburn_final_path)  
+    
+    # puts "ClayPath #{clayburn_path} Final: #{clayburn_final_path}"
+    FileUtils.cp_r(clayburn_path, clayburn_final_path)      
 
   end
   
