@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{clayburn-gen}
-  s.version = "0.0.8"
+  s.version = "0.0.9"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rob Ellis"]
@@ -29,8 +29,8 @@ Gem::Specification.new do |s|
      "bin/clayburn-gen",
      "clayburn-gen.gemspec",
      "lib/clayburn-gen.rb",
-     "lib/templates/clayburn-app/127.0.0.1/bootstrap.js",
-     "lib/templates/clayburn-app/127.0.0.1/config.js",
+     "lib/templates/clayburn-app/127.0.0.1/js/bootstrap.js",
+     "lib/templates/clayburn-app/127.0.0.1/js/config.js",
      "lib/templates/clayburn-app/clayburn",
      "lib/templates/clayburn-flat/127.0.0.1/bootstrap.js",
      "lib/templates/clayburn-flat/127.0.0.1/config.js",
