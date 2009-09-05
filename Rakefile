@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "clayburn-gen"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Generator for Clayburn MVC}
+    gem.description = %Q{Clayburn MVC Project genator}
     gem.email = "kazoomer@gmail.com"
     gem.homepage = "http://github.com/silentrob/clayburn-gen"
     gem.authors = ["Rob Ellis"]
