@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require "lib/clayburn-gen"
-# require "clayburn-gen"
+# require "lib/clayburn-gen"
+require "clayburn-gen"
 
 class ClayburnConsole
 
