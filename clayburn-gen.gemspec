@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{clayburn-gen}
-  s.version = "0.0.13"
+  s.version = "0.0.15"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rob Ellis"]
-  s.date = %q{2009-09-05}
+  s.date = %q{2009-09-08}
   s.default_executable = %q{clayburn-gen}
   s.description = %q{Clayburn MVC Project genator}
   s.email = %q{kazoomer@gmail.com}
@@ -31,6 +31,15 @@ Gem::Specification.new do |s|
      "lib/clayburn-gen.rb",
      "lib/templates/clayburn-app/127.0.0.1/js/bootstrap.js",
      "lib/templates/clayburn-app/127.0.0.1/js/config.js",
+     "lib/templates/clayburn-app/127.0.0.1/js/controllers.js",
+     "lib/templates/clayburn-app/127.0.0.1/js/exception.js",
+     "lib/templates/clayburn-app/127.0.0.1/js/model.js",
+     "lib/templates/clayburn-app/127.0.0.1/web/layouts/application.html",
+     "lib/templates/clayburn-app/127.0.0.1/web/public/logo.png",
+     "lib/templates/clayburn-app/127.0.0.1/web/public/master.css",
+     "lib/templates/clayburn-app/127.0.0.1/web/views/exception/general.html",
+     "lib/templates/clayburn-app/127.0.0.1/web/views/exception/notfound.html",
+     "lib/templates/clayburn-app/127.0.0.1/web/views/home/index.html",
      "lib/templates/clayburn-app/clayburn",
      "lib/templates/clayburn-flat/127.0.0.1/bootstrap.js",
      "lib/templates/clayburn-flat/127.0.0.1/config.js",
