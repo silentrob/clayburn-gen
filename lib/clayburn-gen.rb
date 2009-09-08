@@ -21,8 +21,21 @@ class Clayburn
         puts "     [ADDED]  127.0.0.1/js/"
         puts "     [ADDED]  127.0.0.1/js/bootstrap.js"
         puts "     [ADDED]  127.0.0.1/js/config.js"
+        puts "     [ADDED]  127.0.0.1/js/controller.js"
+        puts "     [ADDED]  127.0.0.1/js/exception.js"
+        puts "     [ADDED]  127.0.0.1/js/model.js"
         puts "     [ADDED]  127.0.0.1/web/"
         puts "     [ADDED]  127.0.0.1/web/public/"
+        puts "     [ADDED]  127.0.0.1/web/public/logo.png"
+        puts "     [ADDED]  127.0.0.1/web/public/master.css"
+        puts "     [ADDED]  127.0.0.1/web/views/"
+        puts "     [ADDED]  127.0.0.1/web/views/home/"
+        puts "     [ADDED]  127.0.0.1/web/views/home/index.html"                
+        puts "     [ADDED]  127.0.0.1/web/views/exception/"
+        puts "     [ADDED]  127.0.0.1/web/views/exception/general.html"
+        puts "     [ADDED]  127.0.0.1/web/views/exception/notfound.html"                
+        puts "     [ADDED]  127.0.0.1/web/layouts/"
+        puts "     [ADDED]  127.0.0.1/web/layouts/application.html"        
       end
       
       # git init
