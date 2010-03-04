@@ -1,6 +1,16 @@
 = clayburn-gen
 
-Description goes here.
+This is the Generator for Clayburn MVC Apps build on Joyents Smart Platform.
+
+To use, follow these steps.
+
+    gem sources -a http://gems.github.com
+    sudo gem install silentrob-clayburn-gen
+
+    clayburn-gen app <app_name>
+    cd <app_name>
+    ./clayburn
+
 
 == Note on Patches/Pull Requests
  

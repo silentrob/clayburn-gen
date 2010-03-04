@@ -28,6 +28,8 @@ class Clayburn
         puts "     [ADDED]  127.0.0.1/web/public/"
         puts "     [ADDED]  127.0.0.1/web/public/logo.png"
         puts "     [ADDED]  127.0.0.1/web/public/master.css"
+        puts "     [ADDED]  127.0.0.1/web/public/js/"
+        puts "     [ADDED]  127.0.0.1/web/public/js/jquery-1.4.1.min.js"        
         puts "     [ADDED]  127.0.0.1/web/views/"
         puts "     [ADDED]  127.0.0.1/web/views/home/"
         puts "     [ADDED]  127.0.0.1/web/views/home/index.html"                
