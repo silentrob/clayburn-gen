@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
      "lib/templates/clayburn-app/127.0.0.1/js/exception.js",
      "lib/templates/clayburn-app/127.0.0.1/js/model.js",
      "lib/templates/clayburn-app/127.0.0.1/web/layouts/application.html",
+     "lib/templates/clayburn-app/127.0.0.1/web/public/js/jquery-1.4.1.min.js",
      "lib/templates/clayburn-app/127.0.0.1/web/public/logo.png",
      "lib/templates/clayburn-app/127.0.0.1/web/public/master.css",
      "lib/templates/clayburn-app/127.0.0.1/web/views/exception/general.html",
